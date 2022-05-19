@@ -77,3 +77,23 @@ select * from tblemployee Where Ename LIKE 'A%'
 
 --14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850. 
       Select Ename,Sal from tblemployee where Sal not between 1500 and 2850
+
+	  
+select Empno,Ename,Job from tblemployee t1
+
+ where exists(select 'x'
+
+ from tblemployee where MGR_ID=t1.Empno)
+ --these  exists can be replaced with in keyword
+ 
+ select empno,ename,job from emp t1
+ where empno in (select mgrid
+ from emp where mgrid is not null)
+ 
+ --find all departments that do not have employees
+select deptno, deptname from dept where not exists(select 'x' from emp where emp.deptno = dept.DeptNo )
+ 
+select deptno, deptname from dept where deptno not in(select deptno from emp)
+
+
+
