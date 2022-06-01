@@ -1,0 +1,111 @@
+<DOCTYPE html>
+    <!--(1)write javascript forWrite a JavaScript program to calculate multiplication and division of two numbers.
+        (input from user -->
+    <html>
+    <head>
+        <title></title>
+    <head>
+    <body>
+        <script>
+            
+            function myfun1()
+            {
+                var a=document.getElementById('number').value;
+                var b=document.getElementById('numbers').value;
+                document.getElementById('result').innerHTML=(a*b)
+
+            }
+            function myfun2()
+            
+            {
+                var a=document.getElementById('number').value;
+                var b=document.getElementById('numbers').value;
+                document.getElementById('result').innerHTML=(a/b)
+
+
+            }
+
+        </script>
+     1st number:
+    <input type="number" value=" " id="number"><br><br>
+    2nd number:
+     <input type="number" value=" " id="numbers"><br><br>
+     <br />
+     <input type="submit" value=" multiply" onclick="return myfun1()">
+     <input type="submit" value=" divide" onclick="return myfun2()"><br><br>
+     <b> The result is:  </b><br><br>
+     
+     <p><pre><span id="result"> </p></pre></span>
+    </body>
+    </html>
+
+
+
+
+<!--3. Write a JavaScript program to check whether two given integer values are in the range 50..99 (inclusive).
+     Return true if both of them are in the said range, else false.-->
+<head>
+    <body>
+        
+
+<script>
+        function Check_Num(x, y) 
+        {
+            if ((x >= 50 && x <= 99) && (y >= 50 && y <= 99)) 
+            {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        document.writeln("Check_Num(44, 102)" + " " + Check_Num(33, 102));
+        document.write("<br>");
+        document.writeln("Check_Num(22, 101)" + " " + Check_Num(22, 101));
+        document.write("<br>");
+        document.writeln("Check_Num(59, 88)"+" "+Check_Num(59, 88));
+</Script>
+
+        <body>
+        </html>
+
+
+ <!DOCTYPE html>
+    <head>
+    <!--(2)Write a JavaScript program to compute the sum of the given two integers. 
+        If the two values are same, then returns triple their sum.-->
+    <title></title>
+    </head>
+    <body>
+    
+    <script>
+        function TripleSum(a, b) 
+        {
+            if (a == b) {
+                return 3 * (a + b);
+            }
+            else {
+                return (a + b);
+            }
+        }
+     
+      
+        document.writeln("TripleSum(10, 11)" + " " + TripleSum(10, 11)); 
+     
+    
+        document.writeln("TripleSum(15, 15)"+" "+TripleSum(15, 15)); 
+        
+         
+    </script>
+</body>
+</html> 
+   
+    
+    
+
+
+
+
+
+
+
