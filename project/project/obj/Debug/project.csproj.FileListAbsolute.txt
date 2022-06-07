@@ -1,0 +1,7 @@
+C:\Users\RG67601\Downloads\project\project\project\project\obj\Debug\project.csproj.AssemblyReference.cache
+C:\Users\RG67601\Downloads\project\project\project\project\obj\Debug\project.csproj.CoreCompileInputs.cache
+C:\Users\RG67601\Downloads\project\project\project\project\bin\Debug\project.exe.config
+C:\Users\RG67601\Downloads\project\project\project\project\bin\Debug\project.exe
+C:\Users\RG67601\Downloads\project\project\project\project\bin\Debug\project.pdb
+C:\Users\RG67601\Downloads\project\project\project\project\obj\Debug\project.exe
+C:\Users\RG67601\Downloads\project\project\project\project\obj\Debug\project.pdb
